@@ -15,6 +15,7 @@
 		3B33FFB522C7437800FDB490 /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33FFB422C7437800FDB490 /* WaterFallViewController.swift */; };
 		3B33FFB722C7441400FDB490 /* WaterFallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33FFB622C7441400FDB490 /* WaterFallFlowLayout.swift */; };
 		3B33FFB922C8E68100FDB490 /* WaterFallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33FFB822C8E68100FDB490 /* WaterFallCollectionViewCell.swift */; };
+		3B46D4072305741100B17491 /* AutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46D4062305741100B17491 /* AutolayoutViewController.swift */; };
 		C58A3F42B1F4FA8C8459C2DC /* Pods_iOSUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF88B7D22523E4764903208F /* Pods_iOSUIDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3B33FFB422C7437800FDB490 /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		3B33FFB622C7441400FDB490 /* WaterFallFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallFlowLayout.swift; sourceTree = "<group>"; };
 		3B33FFB822C8E68100FDB490 /* WaterFallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B46D4062305741100B17491 /* AutolayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutViewController.swift; sourceTree = "<group>"; };
 		6009E15814CCD40EE7AE8643 /* Pods-iOSUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUIDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSUIDemo/Pods-iOSUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B2904B66CEE0FD6D7B3C4244 /* Pods-iOSUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSUIDemo/Pods-iOSUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EF88B7D22523E4764903208F /* Pods_iOSUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 		3B33FF9F22C73FEB00FDB490 /* iOSUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3B46D405230573ED00B17491 /* AutoLayout */,
 				3B33FFB322C7436000FDB490 /* 瀑布流 */,
 				3B33FFA022C73FEB00FDB490 /* AppDelegate.swift */,
 				3B33FFA222C73FEB00FDB490 /* ViewController.swift */,
@@ -95,6 +98,14 @@
 				3B33FFB822C8E68100FDB490 /* WaterFallCollectionViewCell.swift */,
 			);
 			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		3B46D405230573ED00B17491 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3B46D4062305741100B17491 /* AutolayoutViewController.swift */,
+			);
+			path = AutoLayout;
 			sourceTree = "<group>";
 		};
 		B2E3E7BD89B197745DBE3EC0 /* Frameworks */ = {
@@ -228,6 +239,7 @@
 				3B33FFB722C7441400FDB490 /* WaterFallFlowLayout.swift in Sources */,
 				3B33FFB922C8E68100FDB490 /* WaterFallCollectionViewCell.swift in Sources */,
 				3B33FFB522C7437800FDB490 /* WaterFallViewController.swift in Sources */,
+				3B46D4072305741100B17491 /* AutolayoutViewController.swift in Sources */,
 				3B33FFA322C73FEB00FDB490 /* ViewController.swift in Sources */,
 				3B33FFA122C73FEB00FDB490 /* AppDelegate.swift in Sources */,
 			);

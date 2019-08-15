@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }()
     
     private lazy var dataArray: [String] = {
-       return ["瀑布流"]
+       return ["瀑布流", "Autolayout"]
     }()
     
     override func viewDidLoad() {
@@ -51,6 +51,10 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             // 瀑布流
             self.navigationController?.pushViewController(WaterFallViewController(),
                                                           animated: true)
+            
+        case 1:
+            // autolayout
+            self.navigationController?.pushViewController(AutolayoutViewController(), animated: true)
         default:
             break
         }
